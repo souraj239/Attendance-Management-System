@@ -1,10 +1,9 @@
-# attendance-management-system
+# Attendance-Management-System
 Online attendance management
 
 WEB TECHNOLOGY PROJECT 
 
 Submitted By: Souraj Mukhopadhyay[17SCSE101049]
-		Shivani Chauhan [17SCSE101028]
 
 Submitted To: Mr. S. Rakesh Kumar
 
