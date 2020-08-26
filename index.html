@@ -1,0 +1,43 @@
+<?DOCTYPE html>
+<html>
+    <head>
+        <title>Attendence Management System</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Lexend+Giga&family=Noto+Serif&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/lib...">
+    </head>
+    <body>
+        <Header>
+            <nav>
+                <div class="row clearfix">
+                    <img src="images/Galgotias_University.png" class="logo">
+                    <ul class="main_nav animated SlideInDown"  id="check-class">
+                        <li><a href="login.php">Student Login</a></li>
+                        <li><a href="loginteacher.php">Faculty login</a></li>
+                        <li><a href="index1.php">Student Registration</a></li>
+                        <li><a href="index1.php">Admin Login</a></li>
+                    </ul>
+                    <a href="#" class="moblicn" oneclick="SlideShow()"><i class="fa fa-bars"></i>></a>
+                </div>
+            </nav>
+            <div class="Main_cnt animated fadeIn">
+            <h1>Welcome to <span class="colorchg">Attendence Management System</span>.<br>
+                Please Login according to your role.
+            </h1>
+            <a href="login.php" class="btn btn1">Student Login</a>
+            <a href="loginteacher.php" class="btn btn2">Faculty login</a>
+            </div>
+        </Header>
+        <script type="text/javascript">
+        function SlideShow(){
+            var x= document.getElementById('check-class');
+            if(x.style.display==="none")
+                x.display="block";
+            else
+                x.display="none";
+        }
+        </script>
+
+    </body>
+</html>
